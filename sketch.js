@@ -42,7 +42,7 @@ block1 = Bodies.circle(220,10,10,block1_options)
 World.add(world, block1)
 block2 = Bodies.rectangle(110,50,10,10,block2_options)
 World.add(world, block2)
-block3 = Bodies.rectangle(350,50,10,10,block3_options)
+block3 = Bodies.rectangle(350,50,100,10,block3_options)
 World.add(world, block3)
 
   fill("pink");
@@ -56,7 +56,7 @@ function draw() {
 rect(plane.position.x,plane.position.y,1200)
 ellipse(block1.position.x,block1.position.y,30);
 rect(block2.position.x,block2.position.y,60)
-rect(block3.position.x,block3.position.y,10)
+rect(block3.position.x,block3.position.y,100,30)
 }
 
 
